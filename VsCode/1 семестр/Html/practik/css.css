@@ -1,0 +1,27 @@
+html {
+    color: white;
+}
+body {
+    background: linear-gradient(white, blue, red)
+    
+}
+.text {
+    color: aliceblue;
+}
+.list {
+    font-size: 150%;
+
+}
+.txt{
+    font-size: 130%;
+}
+.text1 {
+    color: aliceblue;
+    font-size: 200%;
+}
+img {
+    border-radius: 10px;
+}
+h1 {
+    color: rgb(240, 7, 7);
+}

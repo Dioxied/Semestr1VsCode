@@ -1,0 +1,13 @@
+img{
+    width: 200px;
+}
+.o{
+    border-radius: 150px;
+}
+.txt{
+    font-style: italic;
+    font-size:175%;
+    font-weight: bold;
+    text-align: justify;
+    
+}

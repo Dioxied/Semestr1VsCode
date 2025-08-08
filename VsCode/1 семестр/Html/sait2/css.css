@@ -1,0 +1,93 @@
+body{
+    background-image: url("bg.webp");
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    backdrop-filter: blur(2px);
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 0px;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-radius: 20px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.b{
+    margin-top: 300px;
+    transition: font-size 0.2s;
+}
+.back{
+    background-color: rgb(255, 48, 48);
+    text-align: center;
+    height: 600px;
+    width: 80px;
+    color: white;
+    font-size: 25px;
+    text-shadow: 1px 1px 1px black;
+}
+.back:hover{
+    font-size: 30px;
+    background-color: rgb(198, 0, 0);
+}
+.back:active{
+    .b{
+        margin-top: 305px;
+    }
+}
+.next{
+    background-color: rgb(21, 255, 0);
+    text-align: center;
+    height: 600px;
+    width: 80px;
+    color: white;
+    font-size: 25px;
+    text-shadow: 1px 1px 1px black;
+}
+.next:hover{
+    font-size: 30px;
+    background-color: rgb(24, 205, 0);
+}
+.next:active{
+    .b{
+        margin-top: 305px;
+    }
+}
+.text{
+    text-shadow: 1px 1px 1px black;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+}
+
+.header{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    background-image: url('https://avatars.mds.yandex.net/i?id=1487ca1931c446473099e454f442eba7_l-4578614-images-thumbs&n=13');
+    padding-left: 250px;
+    padding-right: 250px;
+    backdrop-filter: 2px;
+}
+h1{
+    font-size: 33px;
+}
+
+.img{
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    width: 700px;
+    height: 600px;
+    transition: background-size 0.5s;
+}
+.img:hover{
+    background-size: 90%;
+}

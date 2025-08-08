@@ -1,0 +1,16 @@
+body{
+    background-color: antiquewhite;
+}
+fieldset{
+    width: 600px;
+    height: 300px;
+}
+button{
+    background-color: red;
+    color: white;
+    border: 1px red solid;
+    border-radius: 30px;
+    width: 130px;
+    height: 40px;
+    font-size: 20px;
+}

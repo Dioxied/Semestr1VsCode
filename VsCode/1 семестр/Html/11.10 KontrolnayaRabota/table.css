@@ -1,0 +1,11 @@
+table,tr,td{
+    border:2px black solid;
+    border-collapse: collapse;
+}
+table{
+    width: 800px;
+    height: 130px;
+}
+.tr3{
+    height: 47px;
+}

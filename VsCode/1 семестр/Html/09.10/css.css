@@ -1,0 +1,15 @@
+#parent{
+    width: 500px;
+    height: 500px;
+    background: black;
+    margin: 50px 100px;
+}
+#child{
+    width: 250px;
+    height: 250px;
+    background: white;
+    position: absolute;
+    top: 250px;
+    left: 250px;
+
+}

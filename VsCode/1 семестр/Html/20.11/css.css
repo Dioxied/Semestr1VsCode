@@ -1,0 +1,54 @@
+.header, .container{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-size: 40px;
+    background: linear-gradient(to left, #aa4b6b, #3b9d99);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.inputField{
+    padding: 10px;
+    width: 40%;
+    border: none;
+
+}
+.btn{
+    padding: 20px;
+    background: #3b9d99;
+    border: none;
+}
+body{
+    background-image: url(photo_2024-11-20_13-43-58.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+
+}
+.toDoAdded{
+    background: #aa4b6b;
+    list-style-type: none;
+    height: 60px;
+    width: 50%;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    border-bottom: 1px solid #aa4b6b;
+}
+
+.ToDoContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.toDoCompleted{
+    background: #3b9d99;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: line-through;
+    transition: all 2s easy;
+}

@@ -1,0 +1,71 @@
+.Table1, .t1 {
+    border: black 1px ridge;
+}
+
+/* ------------------------------- */
+.Table2, .t2{
+    border: black 1px ridge;
+}
+.Table2{
+    width: 400px;
+    height: 300px;
+}
+/* ------------------------------- */
+
+.Table3,.t3{
+    border: 1px black solid;
+    border-collapse: collapse;
+    background-color: rgb(72, 185, 130);
+    color:white;
+    height: 40px;
+    width: 250px;
+    text-align: center;
+}
+
+/* ------------------------------- */
+.Table4, .t4{
+    border: 1px rgb(34, 86, 61) solid;
+    color:white;
+    height: 40px;
+    width: 250px;
+    text-align: center;
+    border-spacing: 12px;
+}
+.t4{
+    background-color:  rgb(72, 185, 130);
+}
+
+/* ------------------------------- */
+
+.Table5,.t5, .t5td{
+    border: 1px black solid;
+    background-color: rgb(164, 239, 254);
+}
+.Table5{
+    min-width: 100%;
+    min-height: 100%;
+    
+}
+.TableInTable, .TinTtd, .TinTtr{
+    background-color: rgb(179, 184, 61);
+    border: 1px black solid;
+    width: 75%;
+    height: 90%;
+}
+
+.TinTtr{
+    width: 100px;
+    border: 1px black solid;
+}
+.t5td100{
+    width: 100px;
+    border: 1px black solid;
+}
+.t5td150{
+    width: 150px;
+    border: 1px black solid;
+}
+.t5td200{
+    width: 200px;
+    border: 1px black solid;
+}

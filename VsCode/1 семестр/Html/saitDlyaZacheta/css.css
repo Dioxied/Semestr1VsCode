@@ -1,0 +1,318 @@
+body{
+    background-image: url("bg.gif");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url("bg_logo.png");
+    border-bottom: 2px #ffffff solid;
+    position:absolute;
+    height: 4vw;
+    width: 1528px;
+    top: 0;
+    left: 0;
+}
+.menu{
+    background-image: url("bg_menu.jpg");
+    width: 74%;
+    height: 660px;
+    margin-top: 15px;
+    margin-left: 13%;
+    border: #ffffff 2px solid;
+    padding-top: 1vw;
+    border-radius: 20px;
+}
+.img_logo{
+    width: 13%;
+    transition: width 0.5s;
+}
+.img_logo:hover{
+    width: 15%;
+}
+.tx-logo{
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.text{
+    text-shadow: 1px 1px 1px black;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+}
+h1{
+    font-size: 340%;
+}
+.tx-logo{
+    font-size: 20px;
+    transition: font-size 0.5s;
+    padding: 0px;
+}
+.tx-logo:hover{
+    font-size: 24px;
+}
+
+.minecraft{
+    display: flex;
+}
+.boss{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.bosses{
+    display: flex;
+    border: 1px solid black;
+    background-image: url("https://avatars.mds.yandex.net/i?id=9853dd3964a421f12eaa70ad88cca44e_l-5306514-images-thumbs&n=13");
+    border-radius: 10px;
+    background-position: 100% auto;
+    background-position-y: -200px;
+}
+.item{
+    object-fit: cover;
+    width: 150px;  
+    height: 400px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.bdt{
+    background-color: rgb(0, 117, 14);
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 2px;
+    text-align: center;
+}
+.selected{
+    object-fit: cover;
+    width: 500px;
+}
+.bd1{
+    background-image: url("dragon.gif");
+    background-size: cover;
+    background-position: center;
+}
+.bd1:hover{
+    .bdt{font-size: 43px;}
+}
+.bd2{
+    background-image: url("wither.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.bd2:hover{
+    .bdt{font-size: 43px;}
+}
+.bd3{
+    background-image: url("riba.gif");
+    background-size: cover;
+    background-position: center;
+}
+.bd3:hover{
+    .bdt{font-size: 43px;}
+}
+.bd4{
+    background-image: url("warden.png");
+    background-size: cover;
+    background-position: center;
+}
+.bd4:hover{
+    .bdt{font-size: 43px;}
+}
+
+.mobs{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+}
+.mobs-h2{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.mobs-container-ob{
+    display: flex;
+    justify-content: space-between;
+}
+.mobs-container-1,.mobs-container-2{
+    background-image: url("bg_mobs.jpg");
+    background-position-x: 500px;
+    margin: 10px;
+    width: 500px;
+    height: 430px;
+    display: flex;
+    border: #ffffff 2px solid;
+}
+.mobs-container-1-img, .mobs-container-2-img{
+    width: 400px;
+    height: 430px;
+    background-repeat: no-repeat;
+    background-size: auto 90%;
+    background-position: center;
+    transition: background-size 0.2s;
+}
+.mobs-container-1-img:hover{
+    background-size: auto 94%;
+}
+.mobs-container-2-img:hover{
+    background-size: auto 94%;
+}
+.mobs-container-1-back, .mobs-container-1-next, .mobs-container-2-back, .mobs-container-2-next{
+    width: 50px;
+    height: 430px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3px;
+}
+.mobs-container-1-back{
+    background-color: red;
+
+}
+.mobs-container-2-back{
+    background-color: red;
+
+}
+.mobs-container-1-next{
+    background-color: rgb(0, 248, 83);
+}
+.mobs-container-2-next{
+    background-color: rgb(0, 248, 83);
+}
+.m-c-b-1-b, .m-c-b-1-n, .m-c-b-2-b, .m-c-b-2-n{
+    margin-top: 180px;
+    text-shadow: 1px 1px 1px black;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    color: white;
+    font-size: 18px;
+    transition: margin-top 0.2s;
+    
+}
+.mobs-container-1-back:hover{
+    .m-c-b-1-b{margin-top: 175px;}
+}
+.mobs-container-1-next:hover{
+    .m-c-b-1-n{margin-top: 175px;}
+}
+.mobs-container-2-back:hover{
+    .m-c-b-2-b{margin-top: 175px;}
+}
+.mobs-container-2-next:hover{
+    .m-c-b-2-n{margin-top: 175px;}
+}
+
+.mobs-container-1-back:active{
+    .m-c-b-1-b{font-size: 15px;}
+}
+
+.mobs-container-1-next:active{
+    .m-c-b-1-n{font-size: 15px;}
+}
+
+.mobs-container-2-back:active{
+    .m-c-b-2-b{font-size: 15px;}
+}
+
+.mobs-container-2-next:active{
+    .m-c-b-2-n{font-size: 15px;}
+}
+
+.minecraft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-minecraft{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.img-minecraft{
+    width: 200px;
+    height: 200px;
+    border: 5px solid white;
+    transition: 0.2s;
+}
+.minecraft-div-1, .minecraft-div-2, .minecraft-div-3, .minecraft-div-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+.p-mc-d-1, .p-mc-d-2, .p-mc-d-3, .p-mc-d-4{
+    font-size: 0px;
+    text-align: center;
+    transition: 0.2s;
+    background-color: #008020;
+    padding: 5px;
+    border: 3px solid white;
+}
+h3{
+    font-size: 18px;
+    text-align: center;
+    transition: 0.4s;
+}
+.minecraft-div-1:hover{
+    .p-mc-d-1{
+        font-size: 15px;
+    }
+    .img-minecraft{
+        width: 240px;
+        height: 240px;
+    }
+    h3{
+        font-size: 27px;
+    }
+}
+.minecraft-div-2:hover{
+    .p-mc-d-2{
+        font-size: 15px;
+    }
+    .img-minecraft{
+        width: 240px;
+        height: 240px;
+    }
+    h3{
+        font-size: 27px;
+    }
+}
+.minecraft-div-3:hover{
+    .p-mc-d-3{
+        font-size: 15px;
+    }
+    .img-minecraft{
+        width: 240px;
+        height: 240px;
+    }
+    h3{
+        font-size: 27px;
+    }
+}
+.minecraft-div-4:hover{
+    .p-mc-d-4{
+        font-size: 15px;
+    }
+    .img-minecraft{
+        width: 240px;
+        height: 240px;
+    }
+    h3{
+        font-size: 27px;
+    }
+}

@@ -1,0 +1,120 @@
+body{
+    background: rgb(52, 52, 52);
+}
+.div10{
+    width: 18%;
+    border: 2px black solid;
+}
+.header{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.div1{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.div12{
+    width: 45%;
+
+    align-items: center;
+}
+p{
+    background-color: rgb(52, 52, 52);
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    padding: 5px;
+}
+img{
+    border: 4px solid rgb(52, 52, 52);
+    border-radius: 15px;
+}
+.zakaz{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.forma{
+    background-color: rgb(52, 52, 52);
+    border-radius: 30px;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.div8{
+    display: flex;
+    justify-content: space-around;
+}
+.label{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.btn{
+    width: 100%;
+    color:white;
+    border: 4px rgb(0, 0, 0) solid;
+    border-radius: 15px;
+}
+.btn2{
+    border: 3px solid black;
+    background-color: rgb(189, 189, 189);
+    color: black;
+    border-radius: 15px;
+    width: 30%;
+    height: 60px;
+    margin-top: 15px;
+    font-size: 170%;
+}
+.btn2:hover{
+    background-color: rgb(38, 38, 38);
+    color: rgb(255, 255, 255);
+}
+.cta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.p1{
+    margin-top: 10px;
+}
+@media all and (max-width: 1100px){
+    body{
+        position: relative;
+    }
+    ul{
+        justify-content: center;
+    }
+    .div12{
+        width: 90%;
+    }
+    .p1{
+        font-size: 80%;
+    }
+    .zakaz{
+        display: block;
+    }
+    .div10{
+        width: 95%;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+    .div8{
+        display: flex;
+        flex-direction: column;
+    }
+    .label{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .forma{
+        padding: 0px;
+    }
+    .btn2{
+        width: 100%;
+    }
+}

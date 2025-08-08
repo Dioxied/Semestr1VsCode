@@ -1,0 +1,22 @@
+table{
+    border:1px black solid;
+}
+tr,td{
+    border-top:1px black solid;
+    border-right: 1px black solid;
+}
+span{
+    color: red;
+}
+button{
+    margin-top: 10px;
+}
+body{
+    background-color: rgb(255, 239, 219);
+}
+table,tr,td{
+    background-color: rgb(255, 239, 219);
+}
+h1{
+    color: rgb(0, 0, 173);
+}

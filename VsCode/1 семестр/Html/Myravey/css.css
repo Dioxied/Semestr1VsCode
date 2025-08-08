@@ -1,0 +1,39 @@
+.sloy1, .sloy2, .sloy3{
+    display: flex;
+    margin: 0%;
+}
+img{
+    width: 100px;
+}
+img:hover{
+    width: 97px;
+}
+.p1, .p2, .p3, .p3, .p4, .p5, .p6, .p7, .p8, .p8, .p9{
+    margin: 3px;
+}
+.pole{
+    display: flex;
+    justify-content: center;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    width: 20%;
+    border: 2px solid black;
+    border-radius: 30%;
+    height: 70px;
+    margin: 10px;
+    font-size: 150%;
+}
+.btn:hover{
+    background-color: gray;
+}
+.header{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-size: 500%;
+}

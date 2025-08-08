@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+#con{
+    width: 900px;
+    height: 590px;
+    margin: 0 auto;
+    border:2px black solid;
+
+}
+#top{
+    width: 900px;
+    height: 140px;
+    background: #ff0000;
+    text-align: center;
+}
+#leftbar{
+    background: #009900;
+    width: 160px;
+    height: 350px;
+    
+}
+#main{
+    position: relative;
+    background: #006699;
+    width: 580px;
+    height: 350px;
+    
+}
+#rightbar{
+    background: #009900;
+    width: 160px;
+    height: 350px;
+    
+}
+.clear{
+    clear: both;
+}
+#footer{
+    width: 900px;
+    height: 100px;
+    background: #11ff00;
+    text-align: center;
+}
