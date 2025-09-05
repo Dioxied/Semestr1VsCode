@@ -7,7 +7,7 @@ from aiogram.client.default import DefaultBotProperties
 from aiogram.enums import ParseMode
 from aiogram.filters import CommandStart
 from aiogram.types import Message
-bot = Bot(token='7902582953:AAGHVc373Ii6NrpAFnx68VSpkp6XFR0CpXQ')
+bot = Bot(token='')
 dp = Dispatcher()
 
 
